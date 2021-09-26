@@ -6,8 +6,8 @@ body{
 }
 
 .box {
-    width: 400px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     padding: 40px;
     position: absolute;
     top: 50%;

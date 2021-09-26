@@ -1,6 +1,9 @@
 import React from 'react'
 import './App.css'
 import Temp from './components/Temp'
+import {BrowserRouter as Router,Route,Switch,Link} from 'react-router-dom'
+
+
 
 
 const App = () => {
@@ -9,7 +12,12 @@ const App = () => {
 
     return(
         <>
-        <Temp />
+         <Router>
+            <Switch>
+             <Temp />
+             </Switch>
+         </Router>
+        
         
         
         </>
